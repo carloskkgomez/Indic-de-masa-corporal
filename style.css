@@ -1,0 +1,89 @@
+body {
+
+    background-image:url("Java/iskra-photography-2u6LfY4lUZk-unsplash.jpg");
+
+    font-family: Arial, sans-serif;
+    margin: 0; /* Elimina el margen predeterminado */
+    padding: 0; /* Elimina el relleno predeterminado */
+}
+
+header {
+    background-color: #343a40; /* Cambia el color de fondo */
+    color: #b0afaf; /* Cambia el color del texto */
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 20px; /* Añade un margen inferior */
+}
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+#container {
+    border: 2px solid #536351; /* Cambia el color del borde */
+    width: 400px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#frmCal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+label {
+    margin-bottom: 10px;
+}
+
+input[type="number"] {
+    width: 100%; /* Haz que el ancho sea del 100% del contenedor */
+    max-width: 300px; /* Establece un ancho máximo */
+    padding: 10px; /* Aumenta el espacio entre el borde y el contenido */
+    margin-bottom: 15px;
+    box-sizing: border-box; /* Evita que el padding afecte al ancho total */
+}
+
+input[type="button"] {
+    width: 150px;
+    padding: 10px;
+    background-color: orangered;
+    color: rgb(204, 196, 196);
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s; /* Agrega transición para el color de fondo y el efecto de escala */
+    border-radius: 20px; /* Agrega bordes redondeados */
+    margin-bottom: 10px;
+}
+
+input[type="button"]:hover {  
+    background-color: violet;
+    transform: scale(1.1); /* Escala ligeramente el botón al pasar el cursor sobre él */
+    box-shadow: 0 0 10px rgba(245, 38, 38, 0.886); /* Agrega una sombra sutil */
+    outline: none; /* Evita que aparezca un borde alrededor del botón */
+}
+
+
+#result {
+    margin-top: 20px;
+    text-align: center;
+    color: white; /* Cambia el color del texto a blanco */
+    font-size: 16px; /* Aumenta el tamaño del texto */
+    line-height: 1.5; /* Incrementa el espacio entre líneas */
+    padding: 20px; /* Añade más espacio alrededor del texto */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Añade sombra al texto */
+}
+
+#foto {
+    margin-top: 20px; /* Añade un margen superior */
+}
+
+img {
+    width: 100%; /* Haz que la imagen sea del 100% del contenedor */
+    max-width: 300px; /* Establece un ancho máximo */
+    height: auto;
+    border-radius: 10px;
+}
